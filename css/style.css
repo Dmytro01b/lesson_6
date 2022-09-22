@@ -1,0 +1,130 @@
+body {
+	font-family: 'Lato', sans-serif;
+	max-width: 810px;
+	margin: 0 auto;
+	font-size: 16px;
+	line-height: 160%;
+}
+
+
+header h1 {
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 130%;
+	margin-bottom: 92px;
+}
+
+.image {
+	margin-bottom: 60px;
+}
+
+.main-content__header {
+	margin-bottom: 24px;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 150%;
+}
+
+.main-content__text-1 {
+	margin-bottom: 45px;
+}
+
+.main-content__text-2 {
+	margin-bottom: 48px;
+}
+
+.main-content__quote {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 150%;
+	padding-left: 60px;
+	margin-bottom: 48px;
+}
+
+.main-content__list {
+	margin-top: 25px;
+	margin-bottom: 24px;
+}
+
+.main-content__list li {
+	padding-bottom: 4px;
+	padding-left: 32px;
+}
+
+
+.main-content__text-end {
+	margin-bottom: 100px;
+
+}
+
+.visibility {
+	outline: 4px solid rgb(95, 89, 89);
+	margin: 0 0 0 auto;
+	background: rgb(2, 0, 36);
+	background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(118, 9, 121, 1) 100%, rgba(0, 212, 255, 1) 100%);
+	border-radius: 33% 67% 77% 23% / 35% 19% 81% 65%;
+	width: 312px;
+	height: 312px;
+	margin-bottom: 100px;
+	overflow: hidden;
+	margin-bottom: 100px;
+}
+
+.visibility__text {
+
+	color: white;
+	opacity: 0;
+	text-align: center;
+	padding-top: 80px;
+}
+
+.visibility__text:hover {
+	opacity: 1;
+	text-decoration: underline;
+}
+
+
+.circle {
+	border: 3px dashed rgb(80, 173, 149);
+	margin: 0 0 100px 110px;
+	display: inline-block;
+	border-radius: 50%;
+	height: 100px;
+	width: 100px;
+	background: rgb(2, 0, 36);
+	background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(68, 204, 154, 1) 100%, rgba(0, 212, 255, 1) 100%);
+}
+
+.circle-1 {
+	box-shadow: 10px 10px 0 #000;
+}
+
+.circle-2 {
+	box-shadow: 10px 10px 0 #000, -10px -10px 0 #000;
+}
+
+.circle-3 {
+	box-shadow: 10px 10px 0 #000, -10px -10px 0 #000, -10px 10px 0 #000, 10px -10px 0 #000;
+}
+
+.circle-1:hover {
+	border: 3px solid rgb(80, 173, 149);
+	transition: all 0.3s ease 0s;
+	padding-top: 3px;
+	box-shadow: 0 2px 0 #000;
+}
+
+.circle-2:hover {
+	border: 3px dotted rgb(80, 173, 149);
+	transition: all 0.3s ease 0s;
+	padding-top: 3px;
+	box-shadow: 0 2px 0 #000;
+}
+
+
+.circle-3:hover {
+	border: 3px double rgb(80, 173, 149);
+	transition: all 0.3s ease 0s;
+	padding-top: 3px;
+	box-shadow: 0 2px 0 #000;
+}
